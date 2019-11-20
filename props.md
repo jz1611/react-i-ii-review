@@ -4,13 +4,40 @@ Answer these on your own, then compare answers as a group
 
 1.  What are props?
 
+- State passed down from higher in the system.
+
 2.  How do you pass props from a parent to a child?
+
+- Set HTML like attribute placed on the rendered child component.
+
+```js
+<ChildComponent property="value" />
+```
 
 3.  How do you access props from a class based child component?
 
+- 
+
+```js
+this.props.property
+```
+
 4.  How do you access props from a functional component?
 
+```js
+props.property
+```
+
 5.  How do you bind a function to a parent component so that it can be passed to a child?
+
+```js
+constructor(){
+  super();
+  this.state={}
+
+  this.functionName = this.functionName.bind(this);
+}
+```
 
 ### Understand
 

@@ -4,9 +4,15 @@ Answer these on your own, then compare answers as a group
 
 1.  What is state?
 
+- State is part of a React component, which tracks and stores values that will be changing.
+
 2.  Where do you set initial state?
 
+- Inside the constructor method of a component.
+
 3.  What method do you use to update state?
+
+- this.setState() - takes an object.
 
 ### Understand
 
@@ -55,6 +61,12 @@ Discuss these questions as a group
 
 7.  Could your `Student` component be refactored into a functional component? Why or why not?
 
+- No - it has state that is required to be updated.
+
 8.  What are the pros and cons of using a class method for an event handler vs. using an arrow function inline?
 
+- A class method must be binded, in-line arrow function is messy/non-reusable.
+
 9.  The render() method is called every time a component's state is updated. For a text input, that means the render method is called for every keypress. Why isn't this bad for performance?
+
+- The input is the only thing that needs to change/render on screen usually, so the entire page is not being affected.

@@ -4,33 +4,35 @@ Answer these on your own, then compare answers as a group
 
 1.  What is React?
 
-###### A Javascript library used to simplify website building by utilizing a component based architecture.
+- A Javascript library used to simplify website building by utilizing a component based architecture and unidirectional data flow for building user interafaces.
 
 2.  What is create-react-app?
 
-A command to download all necessary react files so that the user does not need to build an app from the ground up.
+- A console command to download all necessary react files so that the user does not need to build an app from the ground up.
 
 3.  What is Component Based Architecture?
 
-Creating a program using multiple reusable pieces.
+- Creating a program using multiple reusable pieces of UI/code.
 
 4.  What is JSX?
 
-A type of Javascript that looks similar to HTML, but is read differently, able to be used with React.
+- A type of Javascript that looks similar to HTML, but is read differently, able to be used with React.
 
 5.  What is the virtual DOM?
 
-React uses this to make changes virtually before requiring the user's machine to render unnecessary changes.
+- React uses this to make changes virtually before requiring the user's machine to render unnecessary changes/renders.
 
 6.  What is unidirectional (one-way) data flow?
 
-Data flows down from the parent to its children.
+- Data flows down from the parent to its children.
 
 ### Understand
 
 Discuss these questions in pairs if you have a 4-person group
 
 7.  Summarize what happens when you run `create-react-app my-app`
+
+- A folder with given argument as its name is created with all the required features to run a react app.
 
 8.  Explain what this code does:
 
@@ -49,6 +51,8 @@ const Mentor = props => (
 
 export default Mentor;
 ```
+
+- If title is "Lead Mentor" the className will become "lead."
 
 9.  Explain how data is passed from a parent component to a child component.
 
