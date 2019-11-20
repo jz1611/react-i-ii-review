@@ -4,15 +4,27 @@ Answer these on your own, then compare answers as a group
 
 1.  What is React?
 
+A Javascript library used to simplify website building by utilizing a component based architecture.
+
 2.  What is create-react-app?
+
+A command to download all necessary react files so that the user does not need to build an app from the ground up.
 
 3.  What is Component Based Architecture?
 
+Creating a program using multiple reusable pieces.
+
 4.  What is JSX?
+
+A type of Javascript that looks similar to HTML, but is read differently, able to be used with React.
 
 5.  What is the virtual DOM?
 
+React uses this to make changes virtually before requiring the user's machine to render unnecessary changes.
+
 6.  What is unidirectional (one-way) data flow?
+
+Data flows down from the parent to its children.
 
 ### Understand
 
