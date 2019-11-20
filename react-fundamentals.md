@@ -4,7 +4,7 @@ Answer these on your own, then compare answers as a group
 
 1.  What is React?
 
-A Javascript library used to simplify website building by utilizing a component based architecture.
+###### A Javascript library used to simplify website building by utilizing a component based architecture.
 
 2.  What is create-react-app?
 
